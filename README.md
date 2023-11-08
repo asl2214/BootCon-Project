@@ -5,7 +5,7 @@ Topic: File Carving and Foremost
 Goal: introduce a new Kali Linux tool called Foremost with some background in file carving
 Demonstration: Demonstrating how to use Foremost
 
-Part 1 – Research
+### Part 1 – Research
 
 The first part of my research that I did was to find a Kali Linux tool that was not discussed in our forensics module. Foremost happened to be one that I was able to procure off of a 
 huge list. My digging led to a whole new world of file carving and it inspired me to introduce the topic and present it to my peers who are interested in other fields of cybersecurity. 
