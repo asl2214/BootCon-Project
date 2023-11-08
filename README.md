@@ -10,12 +10,12 @@ Demonstration: Demonstrating how to use Foremost
 The first part of my research that I did was to find a Kali Linux tool that was not discussed in our forensics module. Foremost happened to be one that I was able to procure off of a 
 huge list. My digging led to a whole new world of file carving and it inspired me to introduce the topic and present it to my peers who are interested in other fields of cybersecurity. 
 
-Part 2 – File Carving
+### Part 2 – File Carving
 
 Defining the details of file carving became a bit of a task due to forensics using terminology interchangeably. It then became my goal to fully define and separate **file carving* 
 and the term **data carving* to its details in order to emphasize how Foremost is a data carving tool rather than a file carving tool. 
 
-Part 3 – Creating the USB bit-stream image
+### Part 3 – Creating the USB bit-stream image
 
 The hardest part of this project was actually figuring out how to make a bit-stream image on a Windows computer that would work with a Linux command. I dug the trenches of the 
 internet and traversed through the muds of forensics to have finally found my answer of using an executable dd command on powershell (We love the internet). It was both the worst and best learning moments in
@@ -26,7 +26,7 @@ that formatting a disk drive permanently erases any history on it. Yeah, a kali 
 options when you format a disk, you can absolutely make it unreadable until you make it readable. Also, 2 GB flash drives are no longer sold in stores which is kind of a bummer but a necessary evil. 
 So, the summary of this process is that yes, I was successful in creating a bit-stream image of a USB flash drive but it took an odyssey to get there. 
 
-Part 4 – Project Preparation
+### Part 4 – Project Preparation
 
 I transferred the bit-stream image from my Windows desktop to our class Ubuntu VM that we use. Testing out Foremost was actually a charm. It tasted of sweet success and a victory lap
 to the kitchen for a good 'ole reward of soda. Although, I did end up creating multiple bit-stream images and deleting ones that I didn't think would show the power of the tool. 
